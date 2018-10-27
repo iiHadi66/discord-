@@ -31,15 +31,6 @@ if (message.content.startsWith(PrEfix + 'st')) {
 
 
 
-
-const fs = require ("fs")
-const Discord  = require('discord.js'),
-			client   = new Discord.Client()
-
-client.on('ready', () => {
-	console.log('I am ready!');
-});
-
 client.on('message', message => {
 	if (message.author.bot) return;
 	if (message.author.id == 224875948372262912) {
